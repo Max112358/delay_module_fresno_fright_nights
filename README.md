@@ -4,4 +4,4 @@ The output turns on when triggered and stays on according to the potentiometer (
 After that it turns off for the duration based on the off time knob. It ignores further inputs during this time.
 After the off time has elapsed, it resets itself.
 
-The idea is that when someone walks close to a car we have places as a prop, it activates the horn immediately, jump scaring them. If a group of several people walk past, you dont want the horn to keep going off. So it ignores further triggers until the off time delay has been reached.
+The idea is that when someone walks close to a car we have placed as a prop, it honks the horn immediately, jump scaring them. If a group of several people walk past, you dont want the horn to keep going off for each person. They would have seen the first person get honked, and so would be expecting it. Further honks would just be annoying. So it ignores further triggers until the off time delay has been reached.

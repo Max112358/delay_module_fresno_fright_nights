@@ -6,8 +6,9 @@ const int offPotPin  = A2; // Physical Pin 7 (Analog 1)
 const long maxWaitTime  = 60000; // 60,000 miliseconds is 60 seconds
 
 void setup() {
+  digitalWrite(outputPin, LOW); // 1. Force the internal register to 0V (Disables pull-up)
+  pinMode(outputPin, OUTPUT);    // 2. Now set the hardware to push/pull mode
   pinMode(triggerPin, INPUT);
-  pinMode(outputPin, OUTPUT);
   digitalWrite(outputPin, LOW); // Ensure it starts OFF
 }
 

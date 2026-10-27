@@ -11,3 +11,5 @@ The idea is that when someone walks close to a car we have placed as a prop, it 
 The gerber file is meant to be sent to board houses so they can make the board. The epro file is for easyedya.com, my preferred board editor. The c++ code is for arduino, and runs on the attiny85 chip the board uses.
 
 For the STL files, its designed to use M3 heat insertable nuts into the plastic. You could probably get away with a wood screw around that same size also.
+
+<img width="314" height="423" alt="Screenshot 2026-10-05 132337" src="https://github.com/user-attachments/assets/100f6b67-9739-4142-b258-72b6089b1a32" />

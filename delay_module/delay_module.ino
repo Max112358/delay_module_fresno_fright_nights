@@ -5,7 +5,7 @@ const int onPotPin   = A1; // Physical Pin 3 (Analog 1)
 const int offPotPin  = A2; // Physical Pin 7 (Analog 2)
 const int modePin    = 0;  // Physical Pin 5 (Digital 0)
 
-const long maxWaitTime = 60000; // 60,000 miliseconds is 60 seconds
+const long maxWaitTime = 15000; // 15,000 miliseconds is 60 seconds
 
 void setup() {
   pinMode(outputPin, OUTPUT);
